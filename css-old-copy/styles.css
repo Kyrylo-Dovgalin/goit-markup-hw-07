@@ -80,13 +80,12 @@ body {
 
 .logo {
   color: var(--logo-color);
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    /* identical to box height */
-    text-decoration: none;
-
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  text-decoration: none;
 }
 
 /* лого первая часть */
@@ -94,8 +93,6 @@ body {
   margin-right: 95px;
   padding-top: 25px;
   padding-bottom: 25px;
-
-  
 
   /* outline: 2px solid blue;  */
 }
@@ -626,7 +623,7 @@ body {
   fill: currentColor;
 }
 
- /* .projects .title {
+/* .projects .title {
   margin: 0;
 
   color: var(--title-color);
@@ -992,17 +989,17 @@ body {
 }
 
 .email__label--visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-  
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .email__input {
@@ -1054,7 +1051,7 @@ body {
 .back-drop.is-hidden {
   opacity: 0;
   pointer-events: none;
-   /* visibility: hidden;  */
+  /* visibility: hidden;  */
 }
 
 .back-drop.is-hidden .modal {
